@@ -33,6 +33,11 @@
   max-width: 52.59px;
 }
 
+.kids ._cnt ._menu {
+  position: absolute;
+  right: -51px;
+}
+
 .kids ._grafic.pie {
   height: 15rem !important;
   width: auto !important;
@@ -74,14 +79,14 @@
 
   position: relative;
 
-  text-align: justify;
-
   margin-top: 23px;
 }
 
 .kids ._card.alert {
   flex-direction: row;
   align-items: center;
+
+  gap: .8rem;
 }
 
 .kids ._card._toast {
