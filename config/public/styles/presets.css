@@ -1,10 +1,6 @@
-/** Container`s */
+/** Outhers`s */
 ._disable {
   cursor: not-allowed;
-}
-
-.kids ._overlay {
-  background: var(--overlay);
 }
 
 /** Menu*/
@@ -18,12 +14,19 @@
 
   width: 9rem;
   z-index: 1;
+
+  width: max-content;
 }
 
 .kids ._menu ._opt {
   padding: 0.8rem;
 
   border-bottom: var(--border);
+
+  display: flex;
+  align-items: center;
+
+  gap: .5rem;
 }
 
 .kids ._menu ._opt:first-child {
@@ -48,112 +51,8 @@
   background-color: var(--color-11);
 }
 
-@media screen and (min-width: 375px) {
-  .kids ._card._modal {
-    width: 343px;
-  }
-}
-
 @media screen and (min-width: 425px) {
-  .kids ._card._modal {
-    width: 390px;
-  }
-
-  .kids ._card._modal ._sec.head {
-    right: 30px;
-  }
-
   .kids ._card.min {
     padding: 1.5rem;
   }
-
-  /** Card - Global */
-  /*  .kids ._row {
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-  }*/
-
-  /*  .kids ._flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    gap: 0.8rem;
-  }
-
-
-
-  .kids ._flex ._btn {
-    width: -webkit-fill-available;
-  }
-
-  .kids ._card._modal {
-    width: 390px;
-  }
-
-  .kids ._card._modal ._sec.head {
-    right: 30px;
-  }
-
-  .kids ._card.min {
-    padding: 1.5rem;
-  }*/
-
 }
-
-/* Arrumar ainda */
-
-.kids ._card._modal {
-  width: 295px;
-  margin: auto;
-
-  right: 5px;
-}
-
-.kids ._card._modal .nm {
-  margin-top: 0;
-}
-
-.kids ._card._modal ._sec.head {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  font-size: 1.3rem;
-
-  position: absolute;
-  top: -25px;
-  right: 10px;
-}
-
-.kids ._card._modal ._sec.head ._btn {
-  width: 3.12rem;
-  height: 3.12rem;
-}
-
-.kids ._card._modal ._input.min {
-  width: 100%;
-}
-
-/*._sec {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  gap: var(--space);
-}
-
-._sec ._btn {
-  font-size: 1.82rem;
-}
-
-.kids ._div,
-.kids ._row,
-.kids ._flex,
-.kids ._nav {
-  display: flex;
-  flex-direction: column;
-
-  gap: 0.8rem;
-}*/

@@ -85,33 +85,3 @@
   border: 2px solid var(--color-11) !important;
   outline: var(--outline) !important;
 }
-
-/** Ant - Preset */
-.ant-title {
-  color: var(--color-6) !important;
-  font: var(--text-primary) !important;
-  font-weight: bold !important;
-}
-
-/** Reset - AntDesig */
-.ant-select-selector,
-.ant-select-open {
-  border: none !important;
-  background: transparent !important;
-
-  padding: 0 !important;
-
-  box-shadow: none !important;
-}
-
-.ant-select-selection-placeholder {
-  color: var(--color-6) !important;
-  font: var(--text-primary) !important;
-}
-
-.ant-select-arrow,
-.anticon,
-.anticon-down,
-.ant-select-suffix {
-  color: var(--color-6) !important;
-}

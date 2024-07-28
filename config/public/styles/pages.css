@@ -45,14 +45,6 @@
   width: 100%;
 }
 
-
-
- .kids ._turma ._card ._menu {
-  position: absolute;
-  right: -51px;
-}
-
-
 /* Gerenciar aulas */
 .kids ._geaula ._card.aulas ._btn {
   font-size: 1.06rem !important;
@@ -135,6 +127,19 @@
   font-size: 2.5rem;
 }
 
+.kids ._user ._photo {
+  border: var(--border);
+  border-radius: var(--br);
+
+  width: 10rem;
+  height: 10rem;
+
+  object-fit: cover;
+  object-position: top;
+
+  margin: auto;
+}
+
 /* 404 Error Page */
 ._np h1 {
   font-size: 3rem;
@@ -146,6 +151,11 @@
   justify-content: center;
 
   gap: 1.5rem;
+}
+
+/* Materias  */
+.kids ._materias ._textarea {
+  height: 8rem;
 }
 
 @media screen and (min-width: 375px) {
