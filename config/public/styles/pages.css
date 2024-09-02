@@ -1,3 +1,7 @@
+.kids ._body {
+  display: grid;
+  align-content: space-between;
+}
 
 .kids ._main {
   display: flex;
@@ -6,6 +10,12 @@
   gap: 2.5rem;
 
   padding: 3rem 0.2rem;
+}
+
+.kids ._turma ._card.alunos,
+.kids ._dash ._card.admin,
+.kids ._geaula ._card.aulas {
+  padding: 1.5rem 0.5rem;
 }
 
 .kids ._login ._header .return,
@@ -42,7 +52,36 @@
 }
 
 .kids ._turma ._card.alunos .cad {
-  width: 100%;
+  width: -webkit-fill-available;
+}
+
+.kids ._turma ._cnt {
+  display: flex;
+  align-items: center;
+
+  gap: var(--space);
+}
+
+.kids ._turma ._cnt p {
+  border: var(--border);
+  border-radius: var(--br);
+
+  padding: 0.8rem;
+
+  width: -webkit-fill-available;
+
+  font-size: 0.93rem;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.kids ._turma ._cnt .check {
+  padding: 0.8rem;
+
+  height: 49.59px;
+  width: 60px;
 }
 
 /* Gerenciar aulas */
@@ -127,19 +166,6 @@
   font-size: 2.5rem;
 }
 
-.kids ._user ._photo {
-  border: var(--border);
-  border-radius: var(--br);
-
-  width: 10rem;
-  height: 10rem;
-
-  object-fit: cover;
-  object-position: top;
-
-  margin: auto;
-}
-
 /* 404 Error Page */
 ._np h1 {
   font-size: 3rem;
@@ -153,9 +179,14 @@
   gap: 1.5rem;
 }
 
-/* Materias  */
-.kids ._materias ._textarea {
-  height: 8rem;
+/* Cadastramento */
+.kids ._cad ._card._banner {
+  height: 100px;
+  background-image: url(../image/banner-cadastramento_ministerial.png);
+}
+
+.kids ._cad._c ._card ._btn {
+  text-align: center;
 }
 
 @media screen and (min-width: 375px) {
