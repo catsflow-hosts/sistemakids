@@ -303,7 +303,7 @@ video {
 /* Reset - Chakra UI */
 
 .kids ._header .css-0 {
-  position: absolute !important;
+  position: initial !important;
   inset: 0 !important;
   transform: none !important;
 }
@@ -311,19 +311,4 @@ video {
 .kids ._header .css-sjt5nk {
   transform-origin: none !important;
   transform: none !important;
-}
-
-.kids .css-0 {
-  z-index: 5;
-}
-
-.kids .chakra-modal__overlay._overlay.css-13d1tkw {
-  max-width: 425px;
-  margin: auto;  
-
-  left: inherit !important;
-}
-
-.kids .chakra-modal__content-container.css-1oxhx2p {
-  height: 100%;
 }
